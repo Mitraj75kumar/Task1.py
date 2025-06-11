@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Learning & Notes Exchange</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Digital Learning & Notes Exchange</h1>
+        <input type="text" id="search" placeholder="Search notes...">
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Engineering</a></li>
+            <li><a href="#">Medical</a></li>
+            <li><a href="#">Commerce</a></li>
+            <li><a href="#">Arts</a></li>
+            <li><a href="upload.html">Upload Notes</a></li>
+            <li><a href="forum.html">Discussion Forum</a></li>
+        </ul>
+    </nav>
+
+    <section id="notes">
+        <h2>Latest Notes</h2>
+        <div class="note">Introduction to AI - <a href="#">Download</a></div>
+        <div class="note">Business Finance Basics - <a href="#">Download</a></div>
+        <div class="note">Organic Chemistry - <a href="#">Download</a></div>
+    </section>
+
+    <footer>
+        <p>© 2025 Digital Learning & Notes Exchange</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
